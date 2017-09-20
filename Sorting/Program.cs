@@ -23,6 +23,7 @@ namespace Sorting {
             this.Second = b;
         }
 
+
         public override string ToString () {
             return string.Format("A = {0}, B = {1}", First.ToString(), Second.ToString());
         }
@@ -215,6 +216,9 @@ namespace Sorting {
     }
 
     class Program {
+
+        
+
         static void Main (string[] args) {
 
             //var meme = Node.NodeList( 5 );
